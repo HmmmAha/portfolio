@@ -30,6 +30,22 @@
   }
 }
 
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@theme {
+  --color-ink: #1B2436;
+  --color-paper: #FAF9F6;
+  --color-signal: #3F8E7A;
+  --color-signal-dark: #2E6A59;
+  --color-line: #DCD9D0;
+  --color-muted: #55606E;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;
@@ -51,7 +67,7 @@
 }
 
 #root {
-  width: 1126px;
+  /* width: 1126px; */
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
