@@ -10,7 +10,7 @@ interface ContactProps {
   socialLinks: SocialLink[];
 }
 
-export function Contact({ name, email, socialLinks }: ContactProps) {
+export function Contact({ email, socialLinks }: ContactProps) {
   return (
     <footer
       id="contact"
