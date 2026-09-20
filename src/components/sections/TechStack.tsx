@@ -35,7 +35,7 @@ export function TechStack({ skills }: { skills: SkillGroup[] }) {
                   {group.items.map((item) => (
                     <motion.span
                       key={item}
-                      className="cursor-default rounded-lg border border-line bg-paper px-3 py-1.5 text-[0.8rem] font-medium text-ink transition-colors duration-200 hover:border-signal/40 hover:bg-signal/5 hover:text-signal-dark"
+                      className="cursor-default rounded-lg border border-line bg-paper px-3 py-1.5 text-[0.8rem] font-medium text-ink"
                     >
                       {item}
                     </motion.span>

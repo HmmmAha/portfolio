@@ -66,12 +66,6 @@ export function Contact({ name, email, socialLinks }: ContactProps) {
         </AnimatedSection>
 
         <div className="mt-20 flex items-center justify-between border-t border-line-dark pt-6 text-[0.8rem] text-muted">
-          <p>© {new Date().getFullYear()} {name}</p>
-          <p className="flex items-center gap-1.5">
-            Built with
-            <span className="text-signal">♥</span>
-            React & TypeScript
-          </p>
         </div>
       </div>
     </footer>
