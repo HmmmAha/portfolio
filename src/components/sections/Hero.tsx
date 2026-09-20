@@ -51,27 +51,6 @@ export function Hero({
       />
 
       <div className="relative z-10 mx-auto max-w-[1080px] px-6 py-32">
-        {/* Available badge */}
-        {availableForWork && (
-          <motion.div
-            variants={scaleIn}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 0.2 }}
-            className="mb-6 inline-flex items-center gap-2 rounded-full border border-signal/30 bg-signal/5 px-4 py-1.5 text-[0.8rem] font-medium text-signal-dark"
-          >
-            <span className="relative flex h-2 w-2">
-              <motion.span
-                animate={{ scale: [1, 2, 1], opacity: [0.75, 0, 0.75] }}
-                transition={{ duration: 1.5, repeat: Infinity }}
-                className="absolute inline-flex h-full w-full rounded-full bg-signal"
-              />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-signal" />
-            </span>
-            Available for opportunities
-          </motion.div>
-        )}
-
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
