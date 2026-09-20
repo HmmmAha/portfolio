@@ -6,9 +6,9 @@ import type { Experience } from './types/Experience';
 
 function App() {
   const defaultSkills: SkillGroup[] = [
-    { category: 'Frontend', items: ['React', 'TypeScript', 'Redux', 'i18next', 'Vite'] },
-    { category: 'Backend', items: ['C#', 'Azure Functions', 'Cosmos DB', 'REST APIs'] },
-    { category: 'Platform', items: ['Event Hub', 'Event Grid', 'GA4', 'MSAL', 'CI/CD'] },
+    { category: 'Frontend', items: ['React', 'TypeScript', 'Redux', 'Laravel'] },
+    { category: 'Backend', items: ['C#', 'Python (Django)', 'Supabase', 'PHP'] },
+    { category: 'Database', items: ['MySQL', 'CosmosDB', 'NoSQL', 'SQL Server'] },
   ];
 
   const defaultSocial: SocialLink[] = [
