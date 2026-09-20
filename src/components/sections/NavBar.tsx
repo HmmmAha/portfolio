@@ -38,11 +38,11 @@ export function NavBar({ activeSection }: { activeSection: string }) {
         >
           <TypeAnimation
             sequence={[
-              "Hi! ", 1500,
-              "Hola! 🇪🇸", 1500,
-              "Bonjour! 🇫🇷", 1500,
-              "こんにちは! 🇯🇵", 1500,
-              "Hallo! 🇩🇪", 1500,
+              "Hi!", 1500,
+              "Hola!", 1500,
+              "Bonjour!", 1500,
+              "こんにちは!", 1500,
+              "Halo!", 1500,
             ]}
             wrapper="span"
             speed={50}
