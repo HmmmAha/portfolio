@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Code2, Layers, Cloud, Music, Gamepad2, Sparkles } from "lucide-react";
+import { Music, Gamepad2, Sparkles } from "lucide-react";
 import { AnimatedSection } from "../ui/AnimatedSection";
 import { staggerContainer, fadeUp } from "../../utils/animations";
 import type { Interest } from "../../types/Interests";
