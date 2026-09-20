@@ -11,11 +11,8 @@ export function Projects({ projects }: { projects: Project[] }) {
         <AnimatedSection>
           <div className="flex items-end justify-between">
             <h2 className="font-display text-[1.6rem] font-bold text-ink">
-              Featured Projects
+              Projects
             </h2>
-            <p className="text-sm text-muted">
-              {projects.length} projects
-            </p>
           </div>
         </AnimatedSection>
         <motion.div
