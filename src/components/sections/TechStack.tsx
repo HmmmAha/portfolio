@@ -6,11 +6,11 @@ import type { SkillGroup } from "../../types/SkillGroup";
 
 export function TechStack({ skills }: { skills: SkillGroup[] }) {
   return (
-    <section id="stack" className="border-t border-line">
+    <section id="skills" className="border-t border-line">
       <div className="mx-auto max-w-[1080px] px-6 py-24">
         <AnimatedSection>
           <h2 className="font-display text-[1.6rem] font-bold text-ink">
-            Tech Stack
+            Skills
           </h2>
         </AnimatedSection>
         <motion.div

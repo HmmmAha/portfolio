@@ -16,7 +16,7 @@ export function NavBar({ activeSection }: { activeSection: string }) {
     { id: "about", label: "About" },
     { id: "experience", label: "Experience" },
     { id: "work", label: "Projects" },
-    { id: "stack", label: "Stack" },
+    { id: "skills", label: "Skills" },
     { id: "contact", label: "Contact" },
   ];
 
