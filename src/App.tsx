@@ -63,6 +63,14 @@ function App() {
       tags: ['Python', 'Machine Learning', 'Streamlit'],
       link: 'https://ml-projectfejb6ycbjthrzstt7hdbo2.streamlit.app/',
     },
+    {
+      title: 'Experimentation on Various Loss Function Configurations Effects on Liver Tumor Segmentation Performance of TransUNet',
+      description:
+        'This is a research that focuses on analysing how different loss functions affect the segmentation performance of liver carcinoma. \
+        This project primarily uses',
+      tags: ['Python', 'Deep Learning', 'PyTorch', 'Medical Segmentation'],
+      link: 'https://drive.google.com/file/d/174TouLVgtdaZR9oQznboh7T-V_PSX1JT/view?usp=sharing'
+    },
   ];
 
   // for ease of reading purposes
