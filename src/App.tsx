@@ -52,8 +52,8 @@ function App() {
         'RectUp is a web-based to-do list, diagramming and drawing app that allows users to manipulate objects (tasks) to their likings.\
         This app can arrange tasks into a tree-like structure that can be minimized to maximize space efficiency for other tasks to be placed.',
       tags: ['React', 'TypeScript', 'To-Do List', 'Canvas'],
+      type: 'app',
       link: 'https://x3nozite.github.io/rect-up/',
-      logo: './src/assets/logo.svg',
     },
     {
       title: 'Greater Jakarta House Price Predictor',
@@ -61,6 +61,7 @@ function App() {
         'This project is a simple price prediction tool for houses in Greater Jakarta. \
          Simply input all the details of the house, and a price prediction will be displayed.',
       tags: ['Python', 'Machine Learning', 'Streamlit'],
+      type: 'app',
       link: 'https://ml-projectfejb6ycbjthrzstt7hdbo2.streamlit.app/',
     },
     {
@@ -69,6 +70,7 @@ function App() {
         'This is a research that focuses on analysing how different loss functions affect the segmentation performance of liver carcinoma. \
         This project primarily uses',
       tags: ['Python', 'Deep Learning', 'PyTorch', 'Medical Segmentation'],
+      type: 'paper',
       link: 'https://drive.google.com/file/d/174TouLVgtdaZR9oQznboh7T-V_PSX1JT/view?usp=sharing'
     },
   ];

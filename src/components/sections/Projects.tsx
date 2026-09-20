@@ -53,7 +53,15 @@ export function Projects({ projects }: { projects: Project[] }) {
                     rel="noreferrer"
                     className="mt-4 inline-flex items-center gap-1.5 text-[0.85rem] font-medium text-signal-dark"
                   >
-                    View project
+                    { project.type === 'app' ? (
+                      <> 
+                        View project 
+                      </>
+                    ) : (
+                      <> 
+                        View paper
+                      </>
+                    )}
                     <ExternalLink size={14} />
                   </a>
                 )}
