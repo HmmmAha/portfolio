@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { ArrowDown, ChevronRight, Briefcase, MapPin } from "lucide-react";
-import { blobMotion, scaleIn, ease, floatMotion } from "../../utils/animations";
+import { ArrowDown, ChevronRight, Briefcase } from "lucide-react";
+import { blobMotion, ease, floatMotion } from "../../utils/animations";
 import { getSocialIcon } from "../../utils/icons";
 import type { SocialLink } from "../../types/SocialLink";
 
@@ -8,7 +8,6 @@ interface HeroProps {
   name: string;
   role: string;
   tagline: string;
-  location?: string;
   resumeUrl?: string;
   availableForWork?: boolean;
   socialLinks: SocialLink[];
@@ -18,9 +17,7 @@ export function Hero({
   name,
   role,
   tagline,
-  location,
   resumeUrl,
-  availableForWork,
   socialLinks,
 }: HeroProps) {
   return (
@@ -71,18 +68,6 @@ export function Hero({
         >
           {tagline}
         </motion.p>
-
-        {location && (
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.5 }}
-            className="mt-3 flex items-center gap-1.5 text-sm text-muted/70"
-          >
-            <MapPin size={14} />
-            {location}
-          </motion.p>
-        )}
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}

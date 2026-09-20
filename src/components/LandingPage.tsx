@@ -22,9 +22,7 @@ interface LandingPageProps {
   skills: SkillGroup[];
   projects: Project[];
   experiences?: Experience[];
-  location?: string;
   resumeUrl?: string;
-  availableForWork?: boolean;
 }
 
 export default function LandingPage({
@@ -37,9 +35,7 @@ export default function LandingPage({
   skills,
   projects,
   experiences = [],
-  location,
   resumeUrl,
-  availableForWork = true,
 }: LandingPageProps) {
   const [activeSection, setActiveSection] = useState("");
 
@@ -71,9 +67,7 @@ export default function LandingPage({
         name={name}
         role={role}
         tagline={tagline}
-        location={location}
         resumeUrl={resumeUrl}
-        availableForWork={availableForWork}
         socialLinks={socialLinks}
       />
 
