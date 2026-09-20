@@ -65,19 +65,23 @@ function App() {
     },
   ];
 
+  // for ease of reading purposes
+  var bio = "Hello, I'm a Computer Science student that likes turning my own ideas into something practical. \
+            I'm currently working as a developer, but I'm still exploring what kind of developer I want to become, so I'm always learning.\
+            I'm also a big enjoyer of music and games, I think that they are a beautiful way to express art. \
+            Details of what I do can be seen to the right side of this bio and below."
+
   return (
     <LandingPage
       name="Hans Marvel Lesmana"
-      role="Full-stack Developer"
-      tagline="I build systems that keep data in sync - from React interfaces to event-driven Azure backends."
-      bio="I work across the stack in the Azure ecosystem: React and TypeScript on the front end, C# Azure Functions and Cosmos DB on the back end, tied together with Event Hub and Event Grid. Most of my recent work has gone into a learning management platform - widgets, sync pipelines, and the plumbing that keeps everything talking to each other."
-      email="you@example.com"
-      location="Indonesia"
+      role="Developer"
+      tagline="Actively learning and being curious enough to learn."
+      bio={bio}
+      email="hmmaha123456000@gmail.com"
       socialLinks={defaultSocial}
       skills={defaultSkills}
       projects={projects}
       experiences={experiences}
-      availableForWork={true}
     />
   );
 }
