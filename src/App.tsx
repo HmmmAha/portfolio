@@ -30,9 +30,9 @@ function App() {
       company: 'PARAMABIRA',
       period: 'Jan 2026 - Present',
       highlights: [
-        'Coordinated rehearsals for choir members.',
-        'Assisted members with learning vocal parts and how to shape their vocals properly.',
-        'Worked with the choir conductor and committee members to prepare performances.'
+        'Coordinated rehearsals for choir members',
+        'Assisted members with learning vocal parts and how to shape their vocals properly',
+        'Worked with the choir conductor and committee members to prepare performances'
       ],
     },
     {
