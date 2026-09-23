@@ -62,7 +62,7 @@ function App() {
          Simply input all the details of the house, and a price prediction will be displayed.',
       tags: ['Python', 'Machine Learning', 'Streamlit'],
       type: 'app',
-      link: 'https://ml-projectfejb6ycbjthrzstt7hdbo2.streamlit.app/',
+      link: 'https://github.com/HmmmAha/ML-project/',
     },
     {
       title: 'Experimentation on Various Loss Function Configurations Effects on Liver Tumor Segmentation Performance of TransUNet',
